@@ -3,7 +3,7 @@ enketo-iframe-demo
 
 A demo showing an Enketo form inside an iframe. 
 
-See [enketo.github.io/enketo-iframe-demo/](http://enketo.github.io/enketo-iframe-demo/)
+See [martijnr.github.io/enketo-iframe-demo/](http://martijnr.github.io/enketo-iframe-demo/)
 
 
 #### Enketo-express iframe features
