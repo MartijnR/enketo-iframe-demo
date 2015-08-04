@@ -14,18 +14,6 @@
         </style>
     </head>
     <body>
-        <iframe src="http://enk.to/::widgets?iframe=true&parentWindowOrigin=http%3A%2F%2Fenketo.github.io"></iframe>
-
-        <script>
-            window.addEventListener("message", receiveMessage, false);
-
-            function receiveMessage(event)
-            {
-              // TODO in real life, check origin! if (event.origin !== "http://enk.to:8080") return;
-              console.log('data received from iframe', JSON.parse(event.data));
-              console.log('origin of message', event.origin);
-              console.log('source of message', event.source);
-            }
-        </script>
+        <iframe src="http://enk.to/::widgets?iframe=true"></iframe>
     </body>
 </html>
